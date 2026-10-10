@@ -85,3 +85,7 @@ Automatic faults reconnect after 190-240 V is stable for the reconnect delay. La
 ## Known limitations
 
 See the "not done or not good enough yet" section of `design_document.pdf`. In short: first command right after boot may return `ERR CMD` (unconfirmed), reconnect window is hard-coded, menu changes save only on exit, `String` class used in the parser, calibration constants not verified against a true-RMS meter, and a real product needs isolation, a fuse and a correctly rated relay.
+
+## Warning
+
+Please Do not use multiple voltage source simultaneously. These sources are only for creating demo fault. Please turn off one source then state goes to normal and then connect to another source
