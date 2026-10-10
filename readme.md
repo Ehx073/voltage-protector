@@ -88,4 +88,4 @@ See the "not done or not good enough yet" section of `design_document.pdf`. In s
 
 ## Warning
 
-Please Do not use multiple voltage source simultaneously. These sources are only for creating demo fault. Please turn off one source then state goes to normal and then connect to another source. In real life power system undervoltage and overvoltage doesn't occur together
+Please Do not use multiple voltage source simultaneously. These sources are only for creating demo fault. Please turn off one source then state goes to normal and then connect to another source. In real life power system undervoltage and overvoltage doesn't occur together.
